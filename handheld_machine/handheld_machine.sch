@@ -1,0 +1,622 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5BDD174A
+P 1950 1750
+F 0 "SW1" H 1950 2035 50  0000 C CNN
+F 1 "SW_Push" H 1950 1944 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 1950 1950 50  0001 C CNN
+F 3 "" H 1950 1950 50  0001 C CNN
+	1    1950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5BDD17BD
+P 2200 1950
+F 0 "D1" V 2246 1871 50  0000 R CNN
+F 1 "D" V 2155 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 1950 50  0001 C CNN
+F 3 "~" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 1750 2200 1750
+Wire Wire Line
+	2200 1750 2200 1800
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5BDD18B6
+P 2750 1750
+F 0 "SW2" H 2750 2035 50  0000 C CNN
+F 1 "SW_Push" H 2750 1944 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 2750 1950 50  0001 C CNN
+F 3 "" H 2750 1950 50  0001 C CNN
+	1    2750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BDD18BD
+P 3000 1950
+F 0 "D2" V 3046 1871 50  0000 R CNN
+F 1 "D" V 2955 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 1950 50  0001 C CNN
+F 3 "~" H 3000 1950 50  0001 C CNN
+	1    3000 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 1750 3000 1750
+Wire Wire Line
+	3000 1750 3000 1800
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5BDD197C
+P 3550 1750
+F 0 "SW3" H 3550 2035 50  0000 C CNN
+F 1 "SW_Push" H 3550 1944 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5BDD1983
+P 3800 1950
+F 0 "D3" V 3846 1871 50  0000 R CNN
+F 1 "D" V 3755 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3800 1950 50  0001 C CNN
+F 3 "~" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 1750 3800 1750
+Wire Wire Line
+	3800 1750 3800 1800
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5BDD198C
+P 4350 1750
+F 0 "SW4" H 4350 2035 50  0000 C CNN
+F 1 "SW_Push" H 4350 1944 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 4350 1950 50  0001 C CNN
+F 3 "" H 4350 1950 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5BDD1993
+P 4600 1950
+F 0 "D4" V 4646 1871 50  0000 R CNN
+F 1 "D" V 4555 1871 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 1950 50  0001 C CNN
+F 3 "~" H 4600 1950 50  0001 C CNN
+	1    4600 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1750 4600 1750
+Wire Wire Line
+	4600 1750 4600 1800
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5BDD1B50
+P 1950 2650
+F 0 "SW5" H 1950 2935 50  0000 C CNN
+F 1 "SW_Push" H 1950 2844 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 1950 2850 50  0001 C CNN
+F 3 "" H 1950 2850 50  0001 C CNN
+	1    1950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5BDD1B57
+P 2200 2850
+F 0 "D5" V 2246 2771 50  0000 R CNN
+F 1 "D" V 2155 2771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 2650 2200 2650
+Wire Wire Line
+	2200 2650 2200 2700
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5BDD1B60
+P 2750 2650
+F 0 "SW6" H 2750 2935 50  0000 C CNN
+F 1 "SW_Push" H 2750 2844 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 2750 2850 50  0001 C CNN
+F 3 "" H 2750 2850 50  0001 C CNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5BDD1B67
+P 3000 2850
+F 0 "D6" V 3046 2771 50  0000 R CNN
+F 1 "D" V 2955 2771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 2850 50  0001 C CNN
+F 3 "~" H 3000 2850 50  0001 C CNN
+	1    3000 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 2650 3000 2650
+Wire Wire Line
+	3000 2650 3000 2700
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5BDD1B70
+P 3550 2650
+F 0 "SW7" H 3550 2935 50  0000 C CNN
+F 1 "SW_Push" H 3550 2844 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 3550 2850 50  0001 C CNN
+F 3 "" H 3550 2850 50  0001 C CNN
+	1    3550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5BDD1B77
+P 3800 2850
+F 0 "D7" V 3846 2771 50  0000 R CNN
+F 1 "D" V 3755 2771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3800 2850 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 2650 3800 2650
+Wire Wire Line
+	3800 2650 3800 2700
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5BDD1B80
+P 4350 2650
+F 0 "SW8" H 4350 2935 50  0000 C CNN
+F 1 "SW_Push" H 4350 2844 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5BDD1B87
+P 4600 2850
+F 0 "D8" V 4646 2771 50  0000 R CNN
+F 1 "D" V 4555 2771 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 2850 50  0001 C CNN
+F 3 "~" H 4600 2850 50  0001 C CNN
+	1    4600 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2650 4600 2650
+Wire Wire Line
+	4600 2650 4600 2700
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5BDD2644
+P 1950 3550
+F 0 "SW9" H 1950 3835 50  0000 C CNN
+F 1 "SW_Push" H 1950 3744 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 1950 3750 50  0001 C CNN
+F 3 "" H 1950 3750 50  0001 C CNN
+	1    1950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5BDD264B
+P 2200 3750
+F 0 "D9" V 2246 3671 50  0000 R CNN
+F 1 "D" V 2155 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 3750 50  0001 C CNN
+F 3 "~" H 2200 3750 50  0001 C CNN
+	1    2200 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 3550 2200 3550
+Wire Wire Line
+	2200 3550 2200 3600
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5BDD2654
+P 2750 3550
+F 0 "SW10" H 2750 3835 50  0000 C CNN
+F 1 "SW_Push" H 2750 3744 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0001 C CNN
+	1    2750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5BDD265B
+P 3000 3750
+F 0 "D10" V 3046 3671 50  0000 R CNN
+F 1 "D" V 2955 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 3750 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+	1    3000 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3550 3000 3550
+Wire Wire Line
+	3000 3550 3000 3600
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5BDD2664
+P 3550 3550
+F 0 "SW11" H 3550 3835 50  0000 C CNN
+F 1 "SW_Push" H 3550 3744 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5BDD266B
+P 3800 3750
+F 0 "D11" V 3846 3671 50  0000 R CNN
+F 1 "D" V 3755 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3800 3750 50  0001 C CNN
+F 3 "~" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3550 3800 3550
+Wire Wire Line
+	3800 3550 3800 3600
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5BDD2674
+P 4350 3550
+F 0 "SW12" H 4350 3835 50  0000 C CNN
+F 1 "SW_Push" H 4350 3744 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 4350 3750 50  0001 C CNN
+F 3 "" H 4350 3750 50  0001 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5BDD267B
+P 4600 3750
+F 0 "D12" V 4646 3671 50  0000 R CNN
+F 1 "D" V 4555 3671 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 3750 50  0001 C CNN
+F 3 "~" H 4600 3750 50  0001 C CNN
+	1    4600 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3550 4600 3550
+Wire Wire Line
+	4600 3550 4600 3600
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5BDD2684
+P 1950 4450
+F 0 "SW13" H 1950 4735 50  0000 C CNN
+F 1 "SW_Push" H 1950 4644 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 1950 4650 50  0001 C CNN
+F 3 "" H 1950 4650 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5BDD268B
+P 2200 4650
+F 0 "D13" V 2246 4571 50  0000 R CNN
+F 1 "D" V 2155 4571 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2200 4650 50  0001 C CNN
+F 3 "~" H 2200 4650 50  0001 C CNN
+	1    2200 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 4450 2200 4450
+Wire Wire Line
+	2200 4450 2200 4500
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5BDD2694
+P 2750 4450
+F 0 "SW14" H 2750 4735 50  0000 C CNN
+F 1 "SW_Push" H 2750 4644 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 2750 4650 50  0001 C CNN
+F 3 "" H 2750 4650 50  0001 C CNN
+	1    2750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5BDD269B
+P 3000 4650
+F 0 "D14" V 3046 4571 50  0000 R CNN
+F 1 "D" V 2955 4571 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 4650 50  0001 C CNN
+F 3 "~" H 3000 4650 50  0001 C CNN
+	1    3000 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 4450 3000 4450
+Wire Wire Line
+	3000 4450 3000 4500
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5BDD26A4
+P 3550 4450
+F 0 "SW15" H 3550 4735 50  0000 C CNN
+F 1 "SW_Push" H 3550 4644 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 3550 4650 50  0001 C CNN
+F 3 "" H 3550 4650 50  0001 C CNN
+	1    3550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5BDD26AB
+P 3800 4650
+F 0 "D15" V 3846 4571 50  0000 R CNN
+F 1 "D" V 3755 4571 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3800 4650 50  0001 C CNN
+F 3 "~" H 3800 4650 50  0001 C CNN
+	1    3800 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 4450 3800 4450
+Wire Wire Line
+	3800 4450 3800 4500
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5BDD26B4
+P 4350 4450
+F 0 "SW16" H 4350 4735 50  0000 C CNN
+F 1 "SW_Push" H 4350 4644 50  0000 C CNN
+F 2 "doragasu-footprints:cherry" H 4350 4650 50  0001 C CNN
+F 3 "" H 4350 4650 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5BDD26BB
+P 4600 4650
+F 0 "D16" V 4646 4571 50  0000 R CNN
+F 1 "D" V 4555 4571 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 4650 50  0001 C CNN
+F 3 "~" H 4600 4650 50  0001 C CNN
+	1    4600 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4450 4600 4450
+Wire Wire Line
+	4600 4450 4600 4500
+Text GLabel 1600 2100 0    50   BiDi ~ 0
+row1
+Wire Wire Line
+	1600 2100 2200 2100
+Wire Wire Line
+	2200 2100 3000 2100
+Connection ~ 2200 2100
+Wire Wire Line
+	3000 2100 3800 2100
+Connection ~ 3000 2100
+Wire Wire Line
+	3800 2100 4600 2100
+Connection ~ 3800 2100
+Text GLabel 1600 3000 0    50   BiDi ~ 0
+row2
+Wire Wire Line
+	1600 3000 2200 3000
+Wire Wire Line
+	2200 3000 3000 3000
+Connection ~ 2200 3000
+Wire Wire Line
+	3000 3000 3800 3000
+Connection ~ 3000 3000
+Wire Wire Line
+	3800 3000 4600 3000
+Connection ~ 3800 3000
+Text GLabel 1600 3900 0    50   BiDi ~ 0
+row3
+Wire Wire Line
+	1600 3900 2200 3900
+Wire Wire Line
+	2200 3900 3000 3900
+Connection ~ 2200 3900
+Wire Wire Line
+	3000 3900 3800 3900
+Connection ~ 3000 3900
+Wire Wire Line
+	3800 3900 4600 3900
+Connection ~ 3800 3900
+Text GLabel 1600 4800 0    50   BiDi ~ 0
+row4
+Wire Wire Line
+	1600 4800 2200 4800
+Wire Wire Line
+	2200 4800 3000 4800
+Connection ~ 2200 4800
+Wire Wire Line
+	3000 4800 3800 4800
+Connection ~ 3000 4800
+Wire Wire Line
+	3800 4800 4600 4800
+Connection ~ 3800 4800
+Text GLabel 1750 1300 1    50   BiDi ~ 0
+col1
+Wire Wire Line
+	1750 1300 1750 1750
+Wire Wire Line
+	1750 1750 1750 2650
+Connection ~ 1750 1750
+Wire Wire Line
+	1750 2650 1750 3550
+Connection ~ 1750 2650
+Wire Wire Line
+	1750 3550 1750 4450
+Connection ~ 1750 3550
+Text GLabel 2550 1300 1    50   BiDi ~ 0
+col2
+Wire Wire Line
+	2550 1300 2550 1750
+Wire Wire Line
+	2550 1750 2550 2650
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 2650 2550 3550
+Connection ~ 2550 2650
+Wire Wire Line
+	2550 3550 2550 4450
+Connection ~ 2550 3550
+Text GLabel 3350 1300 1    50   BiDi ~ 0
+col3
+Wire Wire Line
+	3350 1300 3350 1750
+Wire Wire Line
+	3350 1750 3350 2650
+Connection ~ 3350 1750
+Wire Wire Line
+	3350 2650 3350 3550
+Connection ~ 3350 2650
+Wire Wire Line
+	3350 3550 3350 4450
+Connection ~ 3350 3550
+Text GLabel 4150 1300 1    50   BiDi ~ 0
+col4
+Wire Wire Line
+	4150 1300 4150 1750
+Wire Wire Line
+	4150 1750 4150 2650
+Connection ~ 4150 1750
+Wire Wire Line
+	4150 2650 4150 3550
+Connection ~ 4150 2650
+Wire Wire Line
+	4150 3550 4150 4450
+Connection ~ 4150 3550
+$Comp
+L Connector:Conn_01x08_Female J1
+U 1 1 5BDEB4EB
+P 5400 1300
+F 0 "J1" V 5565 1230 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 5474 1230 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal" H 5400 1300 50  0001 C CNN
+F 3 "~" H 5400 1300 50  0001 C CNN
+	1    5400 1300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5100 1600 3    50   BiDi ~ 0
+row1
+Text GLabel 5200 1600 3    50   BiDi ~ 0
+row2
+Text GLabel 5300 1600 3    50   BiDi ~ 0
+row3
+Text GLabel 5400 1600 3    50   BiDi ~ 0
+row4
+Text GLabel 5500 1600 3    50   BiDi ~ 0
+col1
+Text GLabel 5600 1600 3    50   BiDi ~ 0
+col2
+Text GLabel 5700 1600 3    50   BiDi ~ 0
+col3
+Text GLabel 5800 1600 3    50   BiDi ~ 0
+col4
+Wire Wire Line
+	5100 1500 5100 1600
+Wire Wire Line
+	5200 1500 5200 1600
+Wire Wire Line
+	5300 1500 5300 1600
+Wire Wire Line
+	5400 1500 5400 1600
+Wire Wire Line
+	5500 1500 5500 1600
+Wire Wire Line
+	5600 1500 5600 1600
+Wire Wire Line
+	5700 1500 5700 1600
+Wire Wire Line
+	5800 1500 5800 1600
+$Comp
+L Connector:Conn_01x08_Female J2
+U 1 1 5BDF7603
+P 6500 1300
+F 0 "J2" V 6665 1230 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 6574 1230 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6200 1600 3    50   BiDi ~ 0
+row1
+Text GLabel 6300 1600 3    50   BiDi ~ 0
+row2
+Text GLabel 6400 1600 3    50   BiDi ~ 0
+row3
+Text GLabel 6500 1600 3    50   BiDi ~ 0
+row4
+Text GLabel 6600 1600 3    50   BiDi ~ 0
+col1
+Text GLabel 6700 1600 3    50   BiDi ~ 0
+col2
+Text GLabel 6800 1600 3    50   BiDi ~ 0
+col3
+Text GLabel 6900 1600 3    50   BiDi ~ 0
+col4
+Wire Wire Line
+	6200 1500 6200 1600
+Wire Wire Line
+	6300 1500 6300 1600
+Wire Wire Line
+	6400 1500 6400 1600
+Wire Wire Line
+	6500 1500 6500 1600
+Wire Wire Line
+	6600 1500 6600 1600
+Wire Wire Line
+	6700 1500 6700 1600
+Wire Wire Line
+	6800 1500 6800 1600
+Wire Wire Line
+	6900 1500 6900 1600
+$EndSCHEMATC
